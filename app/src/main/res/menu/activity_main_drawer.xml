@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:layout_height="wrap_content"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/ic_menu_calculadora"
+            android:title="Calculadora" />
+
+        <item
+            android:id="@+id/calcularMedia"
+            android:icon="@drawable/ic_menu_media"
+            android:title="Média" />
+
+        <item
+            android:id="@+id/chamadaFalsa"
+            android:icon="@drawable/ic_menu_chamada"
+            android:title="Chamada Falsa" />
+
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Perfil" />
+    </group>
+
+    <item android:title="Configurações">
+
+        <menu>
+            <item
+                android:id="@+id/configuracao"
+                android:icon="@drawable/ic_menu_configuracao"
+                android:title="Configuração" />
+        </menu>
+
+    </item>
+
+</menu>
